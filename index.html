@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Random jokes</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+    <div class="card-body">
+    <h1 class="card-title"><svg width="300" height="150">
+  <path id="curve" d="M 20 100 Q 150 10 280 100" fill="transparent"/>
+  
+  <text font-size="20" fill="#333">
+    <textPath href="#curve" startOffset="50%" text-anchor="middle">
+      😂Random Joke Generator🤣
+    </textPath>
+  </text>
+</svg>
+ </h1>
+
+   <!-- <button id="searchbtn">Get Joke</button>-->
+      <div class="joke-box"></div>
+      <p card="card-text" id="result"></p>
+       </div>
+        <button class="button " id="searchbtn">Get Joke</button>
+    </div> 
+  </div>
+
+    <script src="app.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
